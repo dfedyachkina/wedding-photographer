@@ -10,6 +10,15 @@
 
 /* General styles*/
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+}
+
 h1, h2, h3 {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
@@ -41,6 +50,7 @@ header a {
 #logo {
     text-shadow: 0px 0px 2px #492a0aa3;
 }
+
 
 #menu {
     font-size: 110%;
@@ -91,17 +101,83 @@ nav {
 
 /* Main */
 main {
-
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
 /* Footer */
 footer {
-
+    background-color: #535251;
 }
+
+footer h3 {
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 0 0 1px darkgray;
+    font-size: medium;
+}
+#social-networks {
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #ffffff;
+}
+
 
 /* Media: phone screens max-width 360px*/
 
 @media screen and (max-width: 360px){
    h1 {
-    text-size: 1.5rem;
+    font-size: 1.5rem;
+   } 
+}
+
+/* Media query: tablets and larger (768px and up)*/
+@media screen and (min-width:768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 50px;
+        margin: 0 0.5rem;
+    }
+}
+
+/* Media: screens 1140px and larger*/
+@media screen and (min-width:1140px) {
+   #logo {
+    line-height: 75px;
    } 
 }

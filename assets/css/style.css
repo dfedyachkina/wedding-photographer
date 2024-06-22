@@ -15,8 +15,8 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #3a3a3a;
-    font-family: 'Lato', sans-serif;
+    color: black;
+    font-family: 'Raleway', sans-serif;
 }
 
 h1, h2, h3 {
@@ -109,9 +109,23 @@ main {
     display: flex;
     flex-direction: column;
 }
+
+/* Introduction section */
+#intro-div {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#intro-div img {
+    display: flex;
+    width: 400px;
+    position: relative;
+}
 /* Footer */
 footer {
     background-color: #535251;
+    display: block;
+    unicode-bidi: isolate;
 }
 
 footer h3 {
@@ -175,9 +189,15 @@ footer h3 {
         line-height: 50px;
         margin: 0 0.5rem;
     }
+
+    /* Main Content */
+    main {
+        /* Push main content down to accomadate larger header*/
+        margin-top: 79px;
+    }
 }
 
-/* Media: screens 1140px and larger*/
+/* Media: screens 1140px and up*/
 @media screen and (min-width:1140px) {
    #logo {
     line-height: 75px;

@@ -120,6 +120,7 @@ footer h3 {
     text-transform: capitalize;
     text-shadow: 0 0 1px darkgray;
     font-size: medium;
+    margin-top: 10px;
 }
 #social-networks {
     text-align: center;
@@ -127,6 +128,7 @@ footer h3 {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    margin-bottom: 10px;
 }
 
 #social-networks i {

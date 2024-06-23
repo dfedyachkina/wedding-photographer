@@ -216,4 +216,16 @@ footer h3 {
    #logo {
     line-height: 75px;
    } 
+   /* Introduction section */
+   #intro-div {
+    columns: 2;
+   }
+
+   #intro-div img {
+    column-count: 1;
+   }
+
+   #intro-div h2, .introduction-text {
+    column-count: 2;
+   }
 }

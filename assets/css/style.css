@@ -29,7 +29,8 @@ h1, h2, h3 {
 
 p {
     font-family: 'Playfair', sans-serif;
-    font-size: 20px;
+    font-size: 100%;
+    color: #3a3a3a;
 }
 
 
@@ -125,7 +126,7 @@ main {
 }
 
 #intro-div h2 {
-    font-size: 25px;
+    font-size: 200%;
     text-align: center;
     margin: 5px 0;
 }
@@ -138,7 +139,15 @@ main {
     margin-bottom: 20px;
 }
 
+/* Our Work section */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
 
+#photos {
+    line-height: 0;
+}
 
 
 /* Footer */
@@ -215,6 +224,12 @@ footer h3 {
         /* Push main content down to accomadate larger header*/
         margin-top: 79px;
     }
+
+    /* Our Work section */
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 
 /* Media: screens 1200px and up*/
@@ -232,6 +247,8 @@ footer h3 {
            #intro-div p {
             font-size: 20px;
            }
+
+           /* Our Work section */
 }
 
 /* Media: screens 1140px and up*/

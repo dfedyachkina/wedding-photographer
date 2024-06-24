@@ -337,6 +337,11 @@ footer h3 {
         column-gap: 0;
     }
 
+    /* About Us */
+    #about-us-text {
+        padding: 10px 50px;
+    }
+
     /* Contact Us section */
     #contact-us {
         columns: 2;

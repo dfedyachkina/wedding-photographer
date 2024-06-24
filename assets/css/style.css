@@ -119,19 +119,13 @@ main {
 }
 
 /* Introduction section */
-#intro-div {
+#introduction {
     display: block;
     margin: 20px 10px 10px 10px;
     padding: 10px;
 }
 
-#intro-div h2 {
-    font-size: 200%;
-    text-align: center;
-    margin: 5px 0;
-}
-
-#intro-div img {
+#introduction>img {
     display: flex;
     width: 100%;
     position: relative;
@@ -139,7 +133,24 @@ main {
     margin-bottom: 20px;
 }
 
+#intro-text h2 {
+    font-size: 200%;
+    text-align: center;
+    margin: 5px 0;
+}
+
+
+
 /* Our Work section */
+#our-work {
+    box-shadow: 1px 1px 10px 1px lightgrey;
+}
+
+#our-work h2 {
+    font-size: 200%;
+    text-align: center;
+    display: block;
+}
 #photos img {
     width: 100%;
     line-height: 1em;
@@ -225,6 +236,11 @@ footer h3 {
         margin-top: 79px;
     }
 
+    /* Introduction section */
+    #introduction img {
+        width: 600px;
+    }
+
     /* Our Work section */
     #photos {
         column-count: 2;
@@ -232,30 +248,31 @@ footer h3 {
     }
 }
 
+/* Media: screens 1140px and up*/
+@media screen and (min-width:1140px) {
+    #logo {
+     line-height: 75px;
+    } 
+    /* Introduction section */
+    
+ }
+
 /* Media: screens 1200px and up*/
 @media screen and (min-width: 1200px) {
         /* Introduction section */
-        #intro-div {
+        #introduction {
             columns: 2;
            }
         
-           #intro-div img {
-            column-count: 0;
+           #introduction img {
+            column-count: 1;
             min-height: 100px;
            }
 
-           #intro-div p {
+           #intro-text p {
             font-size: 20px;
            }
 
            /* Our Work section */
 }
 
-/* Media: screens 1140px and up*/
-@media screen and (min-width:1140px) {
-   #logo {
-    line-height: 75px;
-   } 
-   /* Introduction section */
-   
-}

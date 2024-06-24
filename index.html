@@ -32,7 +32,7 @@
             <ul id="menu">
                 <li><a href="#our-work">Our Work</a></li>
                 <li><a href="#about-us">About Us</a></li>
-                <li><a href="">Contact Us</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
             </ul>
         </nav>
     </header>
@@ -40,19 +40,21 @@
     <main>
         <!-- Introduction -->
         <section id="introduction">
-                <img src="assets/images/photo-for-main-page.jpg" alt="Three photographers" >
-                <div id="intro-text">
+            <img src="assets/images/photo-for-main-page.jpg" alt="Three photographers">
+            <div id="intro-text">
                 <h2>Hey there!</h2>
                 <p>Are you having <strong>a wedding day soon</strong> ?
                     <br>Are you looking for <strong>a photo team</strong> ?
                     <br>Do you want to catch this <strong>special day of you and your beloved</strong>?
-                    <br>You are at the right place! We are a team of professional photographers and we would love to help
+                    <br>You are at the right place! We are a team of professional photographers and we would love to
+                    help
                     you with
                     catching these special and important moments of you life. We work with each copuple individually and
                     take
                     into account you preferences.
                     <br>If you want o have a look at our work and contact us - please scroll down <i
-                        class="fa-solid fa-arrow-down"></i></p>
+                        class="fa-solid fa-arrow-down"></i>
+                </p>
             </div>
         </section>
         <!-- Our work -->
@@ -66,17 +68,55 @@
                 <img src="assets/images/sparks.jpg" alt="sparks">
             </div>
             <div id="video">
-                <iframe width="95%" height="300px" src="https://www.youtube.com/embed/PEIgbYXgKQk?si=EjtW8b8ajvxJnCD1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="95%" height="300px" src="https://www.youtube.com/embed/PEIgbYXgKQk?si=EjtW8b8ajvxJnCD1"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </section>
         <!-- About Us -->
-         <section id="about-us">
+        <section id="about-us">
             <h2>About Us</h2>
             <div id="about-us-text">
-                <p>We are a team of professional photographers! There are 5 people in our company. We are having 2 photographers, 2 videographers and 1 assistant. We are so focused on our job and help people to cach one of the meso important beatiful day in their life. We are working across the whole Ireland. If you want to know more about price - please fill the form below and we will contact you.</p>
+                <p>We are a team of professional photographers! There are 5 people in our company. We are having 2
+                    photographers, 2 videographers and 1 assistant. We are so focused on our job and help people to cach
+                    one of the meso important beatiful day in their life. We are working across the whole Ireland. If
+                    you want to know more about price - please fill the form below and we will contact you.</p>
             </div>
-         </section>
+        </section>
         <!-- Contact Us form -->
+         <section id="contact-us">
+            <h2> Contact Us</h2>
+            <form action="https://formdump.codeinstitute.net" id="contact-us-form" method="post">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" required name="first-name" class="text-input">
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email-address" id="email-address" class="text-input" required>
+                <br>
+                <label for="phone">Phone number</label>
+                <input type="number" name="phone-number" id="phone-number" minlength="10" required>
+                <div class="radio-buttons">
+                    <h3>Which way do you prefer us contact you?</h3>
+                    <div>
+                        <label for="road">Phone</label>
+                        <input type="radio" name="running_preference" id="road" value="road" required checked>
+                    </div>
+                    <div>
+                        <label for="trail">Email Address</label>
+                        <input type="radio" name="running_preference" id="trail" value="trail" required>
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" name="running_preference" id="both" value="both" required>
+                    </div>
+                </div>
+                <button type="submit" class="join-button">Submit</button>
+            </form>
+         </section>
     </main>
     <!-- Footer -->
     <footer>

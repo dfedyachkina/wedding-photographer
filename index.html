@@ -86,8 +86,8 @@
         </section>
         <!-- Contact Us form -->
          <section id="contact-us">
-            <h2> Contact Us</h2>
             <form action="https://formdump.codeinstitute.net" id="contact-us-form" method="post">
+                <h2> Contact Us</h2>
                 <label for="first-name">First Name</label>
                 <input type="text" id="first-name" required name="first-name" class="text-input">
                 <br>
@@ -98,9 +98,9 @@
                 <input type="email" name="email-address" id="email-address" class="text-input" required>
                 <br>
                 <label for="phone">Phone number</label>
-                <input type="number" name="phone-number" id="phone-number" minlength="10" required>
+                <input type="number" name="phone-number" id="phone-number" class="text-input" minlength="10" required>
+                <h3>Which way do you prefer us contact you?</h3>
                 <div class="radio-buttons">
-                    <h3>Which way do you prefer us contact you?</h3>
                     <div>
                         <label for="road">Phone</label>
                         <input type="radio" name="running_preference" id="road" value="road" required checked>
@@ -114,8 +114,9 @@
                         <input type="radio" name="running_preference" id="both" value="both" required>
                     </div>
                 </div>
-                <button type="submit" class="join-button">Submit</button>
+                <center><button type="submit" class="join-button">Submit</button></center>
             </form>
+            <img src="assets/images/table-design-2.jpg" alt="Table design wedding">
          </section>
     </main>
     <!-- Footer -->

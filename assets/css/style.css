@@ -144,6 +144,8 @@ main {
 
 
 /* Our Work section */
+
+/* Photos */
 #our-work {
     box-shadow: 1px 1px 10px 1px lightgrey;
 }
@@ -160,7 +162,32 @@ main {
 
 #photos {
     line-height: 0;
+    background-color: black;
 }
+
+/* Video */
+#video {
+    background-color: black;
+    text-align: center;
+}
+
+/* About Us Section*/
+#about-us {
+    padding: 10px;
+    background-color: #3a3a3a;
+}
+
+#about-us h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+#about-us-text p {
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+}
+
 
 
 /* Footer */
@@ -283,5 +310,8 @@ footer h3 {
            }
 
            /* Our Work section */
+           #video iframe {
+            height: 350px;
+           }
 }
 

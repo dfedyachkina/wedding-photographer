@@ -31,6 +31,8 @@ p {
     font-family: 'Playfair', sans-serif;
     font-size: 100%;
     color: #3a3a3a;
+    text-align: left;
+    padding: 10px;
 }
 
 
@@ -123,10 +125,10 @@ main {
     display: block;
     margin: 20px 10px 10px 10px;
     padding: 10px;
+    text-align: center;
 }
 
 #introduction>img {
-    display: flex;
     width: 100%;
     position: relative;
     border-radius: 60%;
@@ -197,12 +199,12 @@ footer h3 {
 @media screen and (max-width: 360px){
    h1 {
     font-size: 1.5rem;
-   } 
+   }
+   
 }
 
 /* Media query: tablets and larger (768px and up)*/
 @media screen and (min-width:768px) {
-
     /* Header */
     nav {
         display: block;
@@ -241,6 +243,12 @@ footer h3 {
         width: 600px;
     }
 
+    #intro-text p {
+        padding-right: 30px;
+        padding-left: 10px;
+        font-size: 120%;
+    }
+
     /* Our Work section */
     #photos {
         column-count: 2;
@@ -267,10 +275,11 @@ footer h3 {
            #introduction img {
             column-count: 1;
             min-height: 100px;
+            width: 100%;
            }
 
            #intro-text p {
-            font-size: 20px;
+            font-size: 18px;
            }
 
            /* Our Work section */

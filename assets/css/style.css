@@ -176,8 +176,9 @@ main {
 }
 
 #video iframe {
-    width: 95%;
-    heigth: 300px;
+    width: 100%;
+    min-height: 300px;
+    border: none;
 }
 
 /* About Us Section*/
@@ -230,13 +231,10 @@ main {
     margin: 10px 0px;
 }
 
-button {
-    justify-content: center;
-}
 
 .join-button {
-    display: flex;
-    align-items: center;
+    display: block;
+    margin: auto;
     border-radius: 2px;
     background-color: #532c00;
     color: #fafafa;
@@ -401,6 +399,11 @@ footer h3 {
 
     #intro-text p {
         font-size: 18px;
+    }
+
+    /* Contact Us form */
+    .join-button:hover {
+        background-color: #003807;
     }
 
 }

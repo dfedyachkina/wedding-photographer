@@ -43,6 +43,7 @@ p {
     padding: 10px;
 }
 
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -172,6 +173,11 @@ main {
 #video {
     background-color: black;
     text-align: center;
+}
+
+#video iframe {
+    width: 95%;
+    heigth: 300px;
 }
 
 /* About Us Section*/

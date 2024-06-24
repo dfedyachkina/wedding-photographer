@@ -20,7 +20,9 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -28,7 +30,8 @@ h1, h2, h3 {
 
 }
 
-h2,h3 {
+h2,
+h3 {
     text-align: center;
 }
 
@@ -40,10 +43,6 @@ p {
     padding: 10px;
 }
 
-
-.hidden-heading {
-    display: none;
-}
 /* Header */
 header {
     background-color: #ffffff;
@@ -158,6 +157,7 @@ main {
     font-size: 200%;
     display: block;
 }
+
 #photos img {
     width: 100%;
     line-height: 1em;
@@ -198,7 +198,7 @@ main {
 
 #contact-us-form {
     border: 2px solid #a39a6b8a;
-    padding: 15px; 
+    padding: 15px;
 }
 
 #contact-us-form h3 {
@@ -230,7 +230,7 @@ button {
 
 .join-button {
     display: flex;
-    align-items: center ;
+    align-items: center;
     border-radius: 2px;
     background-color: #532c00;
     color: #fafafa;
@@ -260,6 +260,7 @@ footer h3 {
     font-size: medium;
     margin-top: 10px;
 }
+
 #social-networks {
     text-align: center;
     padding: 10px 0;
@@ -278,15 +279,16 @@ footer h3 {
 
 /* Media: phone screens max-width 360px*/
 
-@media screen and (max-width: 360px){
-   h1 {
-    font-size: 1.5rem;
-   }
-   
+@media screen and (max-width: 360px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
 }
 
 /* Media query: tablets and larger (768px and up)*/
 @media screen and (min-width:768px) {
+
     /* Header */
     nav {
         display: block;
@@ -337,6 +339,11 @@ footer h3 {
         column-gap: 0;
     }
 
+    #video iframe {
+        height: 500px;
+        width: 750px;
+    }
+
     /* About Us */
     #about-us-text {
         padding: 10px 50px;
@@ -367,31 +374,27 @@ footer h3 {
 /* Media: screens 1140px and up*/
 @media screen and (min-width:1140px) {
     #logo {
-     line-height: 75px;
-    } 
-    
- }
+        line-height: 75px;
+    }
+
+}
 
 /* Media: screens 1200px and up*/
 @media screen and (min-width: 1200px) {
-        /* Introduction section */
-        #introduction {
-            columns: 2;
-           }
-        
-           #introduction img {
-            column-count: 1;
-            min-height: 100px;
-            width: 100%;
-           }
 
-           #intro-text p {
-            font-size: 18px;
-           }
+    /* Introduction section */
+    #introduction {
+        columns: 2;
+    }
 
-           /* Our Work section */
-           #video iframe {
-            height: 350px;
-           }
+    #introduction img {
+        column-count: 1;
+        min-height: 100px;
+        width: 100%;
+    }
+
+    #intro-text p {
+        font-size: 18px;
+    }
+
 }
-

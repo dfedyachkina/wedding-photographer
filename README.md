@@ -40,77 +40,66 @@ I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0
 
 ## Features
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
-
-In this section, you should go over the different parts of your project,
-and describe each in a sentence or so.
-
-You will need to explain what value each of the features provides for the user,
-focusing on who this website is for, what it is that they want to achieve,
-and how your project is the best way to help them achieve these things.
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-IMPORTANT: Remember to always include a screenshot of each individual feature!
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
 ### Existing Features
 
-- **YOUR-TITLE-FOR-FEATURE-#1**
+- **Navigation**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Featured at the top of the page, the navigation shows the name of the company in the left corner: WEDDING PHOTOGRAPHER that links to the top of the page.
+    - The other navigation links are to the right: Our Work, About Us and Contact Us which link to different sections of the page.
+    - The navigation is in a wedding style font, and colors that contrasts background.
+    - The navigation clearly tells the user the name of the company and website and makes the different sections of information easy to find.
 
 ![screenshot](documentation/features/feature01.png)
 
-- **YOUR-TITLE-FOR-FEATURE-#2**
+- **The Header**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The header contains the greetings, using the colour of dark beige.
+    - The header contains a little introduction of the company, using the color of dark grey.
+    - The section provides the user with clear information what the company is and what they are doing. 
 
 ![screenshot](documentation/features/feature02.png)
 
-- **YOUR-TITLE-FOR-FEATURE-#3**
+- **The Our Work Section**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The Our Work section gives an opportunity to the user to have a look at the pictures and videos which have been made by the company.
+
 
 ![screenshot](documentation/features/feature03.png)
+![screenshot](documentation/features/feature03-part-2.png)
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
+- **The About Us Section**
 
-Repeat as necessary for as many features as your site contains.
+    - The About Us section contains the information about company and staff of the company which would help the user to get know more the company.
 
-Hint: the more, the merrier!
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+![screenshot](documentation/features/feature04.png)
+
+- **The Contact Us Section**
+
+    - The Contact Us section has a form to collect a details of the potential client for contacting him.
+    - The form collects First Name, Last Name, Email Address, Phone number and preferences how user want to be contacted.
+
+
+![screenshot](documentation/features/feature05.png)
+
+- **Footer**
+
+    - The Footer contains icons with the links of the social media, which gives ability to the user find us on other social platforms.
+
+
+![screenshot](documentation/features/feature06.png)
+
 
 ### Future Features
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
-
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-- YOUR-TITLE-FOR-FUTURE-FEATURE-#1
-    - Any additional notes about this feature.
-- YOUR-TITLE-FOR-FUTURE-FEATURE-#2
-    - Any additional notes about this feature.
-- YOUR-TITLE-FOR-FUTURE-FEATURE-#3
-    - Any additional notes about this feature.
+- Database
+    - All user's details send to the Client Database, where would be all potential clients/clients. 
+- Availabality calendar
+    - The calendar which provides availabalities of the team and user can pick up the day and book it.
+- Review and rating form
+    - The form which allow to the user provides a feedback of his experience with the company. It would help the company will grow and see expectations of the clients.
 
 ## Tools & Technologies Used
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
-
-In this section, you should explain the various tools and technologies used to develop the project.
-Make sure to put a link (where applicable) to the source, and explain what each was used for.
-Some examples have been provided, but this is just a sample only, your project might've used others.
-Feel free to delete any unused items below as necessary.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 
 - [![Git](https://img.shields.io/badge/Git-grey?logo=git&logoColor=F05032)](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
@@ -126,6 +115,9 @@ Feel free to delete any unused items below as necessary.
 
 - [![Font Awesome](https://img.shields.io/badge/Font_Awesome-grey?logo=fontawesome&logoColor=528DD7)](https://fontawesome.com) used for the icons.
 - [![ChatGPT](https://img.shields.io/badge/ChatGPT-grey?logo=chromatic&logoColor=75A99C)](https://chat.openai.com) used to help debug, troubleshoot, and explain things.
+
+- [Pixels](https://www.pexels.com/) used to find pictures for photo section.
+- [Youtube](https://youtube.com/) used to find a video for video section
 
 ## Testing
 

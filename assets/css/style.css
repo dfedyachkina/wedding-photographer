@@ -466,7 +466,8 @@ footer h3 {
         column-count: 1;
         max-height: 500px;
         max-width: 800px;
-
+    }
+    
     #intro-text p {
         font-size: 25px;
     }
@@ -475,5 +476,4 @@ footer h3 {
     .join-button:hover {
         background-color: #003807;
     }
-
 }

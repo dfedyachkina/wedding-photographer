@@ -198,7 +198,14 @@ main {
     border-bottom: 1px solid #fafafa78;
 }
 
-#about-us-text p {
+#about-us-text li {
+    font-family: 'Playfair', sans-serif;
+    text-align: left;
+    padding: 10px;
+    line-height: 1.5rem;
+}
+
+#about-us-text p, #about-us-text li {
     color: #ffffff;
     letter-spacing: 0.5px;
     font-size: 20px;

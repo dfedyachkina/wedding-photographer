@@ -192,6 +192,8 @@ main {
     background-color: #3a3a3a;
 }
 
+/* Text */
+
 #about-us h2 {
     text-align: center;
     color: #ffffff;
@@ -205,10 +207,60 @@ main {
     line-height: 1.5rem;
 }
 
-#about-us-text p, #about-us-text li {
+#about-us-text>p, #about-us-text li {
     color: #ffffff;
     letter-spacing: 0.5px;
     font-size: 20px;
+}
+
+#about-us-text h3 {
+    color: #fafafa;
+    margin: 5px;
+    font-size: 30px;
+}
+
+/* Staff section */
+
+
+#workers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.worker {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+}
+.worker h4 {
+    color: #fafafa;
+    font-family: 'Playfair', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.worker p {
+    font-style: italic;
+    color: #ececece5;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 0px;
+}
+.worker img {
+    max-width: 150px;
+    min-height: 100px;
+    border-radius: 50%;
 }
 
 /* Contact Us section */

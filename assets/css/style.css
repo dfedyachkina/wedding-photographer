@@ -26,7 +26,7 @@ h3 {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #a39a6b;
+    color: #877f57;
 
 }
 
@@ -41,6 +41,7 @@ p {
     color: #3a3a3a;
     text-align: left;
     padding: 10px;
+    line-height: 1.5rem;
 }
 
 
@@ -190,6 +191,7 @@ main {
 #about-us h2 {
     text-align: center;
     color: #ffffff;
+    border-bottom: 1px solid #fafafa78;
 }
 
 #about-us-text p {
@@ -206,6 +208,10 @@ main {
 #contact-us-form {
     border: 2px solid #a39a6b8a;
     padding: 15px;
+}
+
+#contact-us-form h2 {
+    margin-bottom: 10px;
 }
 
 #contact-us-form h3 {
@@ -234,7 +240,7 @@ main {
 
 .join-button {
     display: block;
-    margin: auto;
+    margin: 10px auto;
     border-radius: 2px;
     background-color: #532c00;
     color: #fafafa;
@@ -327,9 +333,6 @@ footer h3 {
     }
 
     /* Introduction section */
-    #introduction img {
-        width: 600px;
-    }
 
     #intro-text p {
         padding-right: 30px;
@@ -375,6 +378,13 @@ footer h3 {
     }
 }
 
+@media screen and (min-width: 1000px) {
+    /* Introduction section */
+    #introduction {
+        columns: 2; 
+    }
+}
+
 /* Media: screens 1140px and up*/
 @media screen and (min-width:1140px) {
     #logo {
@@ -387,9 +397,6 @@ footer h3 {
 @media screen and (min-width: 1200px) {
 
     /* Introduction section */
-    #introduction {
-        columns: 2;
-    }
 
     #introduction img {
         column-count: 1;

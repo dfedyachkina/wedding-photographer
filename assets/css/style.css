@@ -215,7 +215,7 @@ main {
 
 #about-us-text h3 {
     color: #fafafa;
-    margin: 5px;
+    margin: 10px 0px 0px;
     font-size: 30px;
 }
 
@@ -228,6 +228,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    margin: 20px 10px;
     
 }
 
@@ -468,7 +469,7 @@ footer h3 {
     }
 
     #intro-text p {
-        font-size: 18px;
+        font-size: 25px;
     }
 
     /* Contact Us form */

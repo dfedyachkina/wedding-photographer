@@ -11,6 +11,10 @@
 
 /* General styles*/
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     min-height: 100vh;
     display: flex;
@@ -221,7 +225,7 @@ main {
 
 .text-input {
     background: transparent;
-    color: #fafafa;
+    color: black;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;

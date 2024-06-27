@@ -129,6 +129,15 @@ main {
     flex-direction: column;
 }
 
+/* Scroll among sections */
+
+#introduction,
+#our-work,
+#about-us,
+#contact-us {
+    scroll-margin-top: 5em;
+}
+
 /* Introduction section */
 #introduction {
     display: block;

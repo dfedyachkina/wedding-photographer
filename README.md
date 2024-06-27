@@ -175,6 +175,8 @@ Use this space to discuss any differences between the local version you've devel
 
 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
+When I deployed the project, I noticed a difference in speed and performance between the local and live deployments.
+
 ## Credits
 
 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)

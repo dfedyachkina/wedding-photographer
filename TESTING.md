@@ -59,9 +59,18 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ## Bugs
 
+- The favicon hasn't been load
+![screenshot](documentation/bugs/bug01.png)
+
+Accidently I added link tags of favicons to the header tag. It has been fixed by moving it to the head tag.
 
 
-## Unfixed Bugs
+- The navigation bar hides some information in the section when you click to see this section on the navigation bar. 
+![screenshot](documentation/bugs/bug02.png)
+
+It has been fixed by set up scroll margin top among sections on style.css.
+
+### Unfixed Bugs
 
 
 > [!NOTE]  

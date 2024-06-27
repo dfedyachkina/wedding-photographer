@@ -115,9 +115,8 @@ I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0
 
 - [![Font Awesome](https://img.shields.io/badge/Font_Awesome-grey?logo=fontawesome&logoColor=528DD7)](https://fontawesome.com) used for the icons.
 - [![ChatGPT](https://img.shields.io/badge/ChatGPT-grey?logo=chromatic&logoColor=75A99C)](https://chat.openai.com) used to help debug, troubleshoot, and explain things.
-
-- [Pixels](https://www.pexels.com/) used to find pictures for photo section.
-- [Youtube](https://youtube.com/) used to find a video for video section
+- [![Pexels](https://img.shields.io/badge/Pexels-grey?logo=pexels&logoColor=05A081)](https://www.pexels.com) used to find pictures for photo section.
+- [![YouTube](https://img.shields.io/badge/YouTube-grey?logo=youtube&logoColor=FF0000)](https://youtube.com) used to find a video for video section.
 
 ## Testing
 

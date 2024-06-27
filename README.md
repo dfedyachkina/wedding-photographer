@@ -172,20 +172,14 @@ When I deployed the project, I noticed a difference in speed and performance bet
 
 ## Credits
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-In this section you need to reference where you got your content, media, and extra help from.
-It is common practice to use code from other repositories and tutorials,
-however, it is important to be very specific about these sources to avoid plagiarism.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 ### Content
 
 | Source | Location | Notes |
 | --- | --- | --- |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
-
+| [W3Schools](https://www.w3schools.com/tags/att_meta_http_equiv.asp) | Confirmation Page | Automatically redirect user back to home page |
+| [Code Institute](https://codeinstitute.net/de/) | Navbar & Footer | Inspiration borrowed from "Love Running" lessons |
 ### Media
 
 | Source | Location | Type | Notes |
